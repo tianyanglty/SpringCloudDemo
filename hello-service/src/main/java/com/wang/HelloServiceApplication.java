@@ -21,11 +21,11 @@ public class HelloServiceApplication {
     @Value("${server.port}")
     String port;
     
-    @Value("${hello}")
-    String hello;
+//    @Value("${hello}")
+//    String hello;
 
     @RequestMapping("/hello")
     public String home(@RequestParam(value = "name", defaultValue = "wang") String name) {
-        return "hello " + name + " ,i am from port:" + port + hello;
+        return "hello " + name + " ,i am from port:" + port ;
     }
 }

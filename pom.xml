@@ -23,7 +23,7 @@
         <module>hello-service</module>
         <module>article-service</module>
         <module>article-consumer-feign</module>
-        <module>article-consumer-riboon</module>
+        <module>article-consumer-ribbon</module>
         <module>zuul-aggregation</module>
         <module>zuul-token</module>
     </modules>

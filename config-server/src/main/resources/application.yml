@@ -7,10 +7,10 @@ spring:
       config:
          server:
             git:
-               uri: https://gitee.com/wshh08/SpringCloudConfig.git
+               uri: https://github.com/YeYunxuan/Config
                search-paths: configs-dir
-               username: username
-               password: password
+               username: 1690426539@qq.com
+               password: zxw1008611
 eureka:
    client:
       serviceUrl:
